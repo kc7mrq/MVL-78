@@ -1,0 +1,263 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome</title>
+<meta name="author" content="Mission Valley Lodge #78 ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="MVL78.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="wwb12.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   function PanelText1Scroll()
+   {
+      var $obj = $("#wb_PanelText1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelText1', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelText1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelText1').inViewPort(true))
+   {
+      $('#wb_PanelText1').addClass("in-viewport");
+   }
+   PanelText1Scroll();
+   $(window).scroll(function(event)
+   {
+      PanelText1Scroll();
+   });
+   function PanelImage1Scroll()
+   {
+      var $obj = $("#wb_PanelImage1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelImage1', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelImage1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelImage1').inViewPort(true))
+   {
+      $('#wb_PanelImage1').addClass("in-viewport");
+   }
+   PanelImage1Scroll();
+   $(window).scroll(function(event)
+   {
+      PanelImage1Scroll();
+   });
+   function PanelImage2Scroll()
+   {
+      var $obj = $("#wb_PanelImage2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelImage2', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelImage2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelImage2').inViewPort(true))
+   {
+      $('#wb_PanelImage2').addClass("in-viewport");
+   }
+   PanelImage2Scroll();
+   $(window).scroll(function(event)
+   {
+      PanelImage2Scroll();
+   });
+   function PanelImage3Scroll()
+   {
+      var $obj = $("#wb_PanelImage3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelImage3', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelImage3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelImage3').inViewPort(true))
+   {
+      $('#wb_PanelImage3').addClass("in-viewport");
+   }
+   PanelImage3Scroll();
+   $(window).scroll(function(event)
+   {
+      PanelImage3Scroll();
+   });
+   function PanelText2Scroll()
+   {
+      var $obj = $("#wb_PanelText2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelText2', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelText2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelText2').inViewPort(true))
+   {
+      $('#wb_PanelText2').addClass("in-viewport");
+   }
+   PanelText2Scroll();
+   $(window).scroll(function(event)
+   {
+      PanelText2Scroll();
+   });
+   function PanelText3Scroll()
+   {
+      var $obj = $("#wb_PanelText3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelText3', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelText3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelText3').inViewPort(true))
+   {
+      $('#wb_PanelText3').addClass("in-viewport");
+   }
+   PanelText3Scroll();
+   $(window).scroll(function(event)
+   {
+      PanelText3Scroll();
+   });
+   $("#PanelLayer").panel({animate: true, animationDuration: 200, animationEasing: 'easeOutCubic', dismissible: false, display: 'push', position: 'left'});
+});
+</script>
+</head>
+<body>
+<div id="Divider3">
+<div id="wb_Heading1" style="display:inline-block;width:363px;height:22px;text-align:center;z-index:0;">
+<h3 id="Heading1">MISSION VALLEY LODGE #78</h3>
+</div>
+</div>
+<script>
+var wb_Timer2;
+function TimerStartTimer2()
+{
+   wb_Timer2 = setTimeout(function()
+   {
+      var event = null;
+      ShowPanel('PanelLayer', event);
+   }, 500);
+}
+function TimerStopTimer2()
+{
+   clearTimeout(wb_Timer2);
+}
+TimerStartTimer2();
+</script>
+
+<div id="wb_Features">
+<div id="Features">
+<div class="row">
+<div class="col-1">
+<div id="wb_PanelImage1" style="display:inline-block;width:293px;height:205px;z-index:1;">
+<img src="images/bikes for books.png" id="PanelImage1" alt="">
+</div>
+<div id="wb_PanelText1">
+<span style="color:#000000;font-family:Arial;font-size:27px;"><strong>BROTHERLY LOVE</strong></span><span style="color:#000000;font-family:Arial;font-size:24px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:12px;"><strong><br></strong></span><span style="color:#4F4F4F;font-family:Arial;font-size:16px;"><strong><em>Every true Freemason will show tolerance and respect for the opinions of others and will behave with compassion and understanding to his fellows.</em></strong></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_PanelImage2" style="display:inline-block;width:293px;height:205px;z-index:3;">
+<img src="images/SCM.png" id="PanelImage2" alt="">
+</div>
+<div id="wb_PanelText2">
+<span style="color:#000000;font-family:Arial;font-size:27px;"><strong>RELIEF</strong></span><span style="color:#000000;font-family:Arial;font-size:24px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:12px;"><strong><br></strong></span><span style="color:#4F4F4F;font-family:Arial;font-size:16px;"><strong><em>From earliest times Freemasons have been taught to help those in distress without detriment to their dependents, and to give their support to outside charities.</em></strong></span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_PanelImage3" style="display:inline-block;width:100%;height:auto;z-index:5;">
+<img src="images/place2.png" id="PanelImage3" alt="">
+</div>
+<div id="wb_PanelText3">
+<span style="color:#000000;font-family:Arial;font-size:27px;"><strong>TRUTH</strong></span><span style="color:#000000;font-family:Arial;font-size:24px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:12px;"><strong><br></strong></span><span style="color:#4F4F4F;font-family:Arial;font-size:16px;"><strong><em>Freemasons strive for truth. Masonry requires high moral standards and its members endeavour to uphold these principles in their public and private lives.</em></strong></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="FlexBoxContainer1">
+<div id="wb_Heading2" style="display:inline-block;width:935px;height:207px;text-align:center;z-index:7;">
+<h2 id="Heading2">1102 4 Ave. E. Polson MT 59860<br><br>Mission Valley Lodge meets every 1st and 3rd Wednesday at 7:30PM<br><br> If you are interested in joining the craft, we hope that you will find the information here helpful in answering your questions.<br><br>Mission Valley Lodge #78 is a Regular and Recognized Masonic lodge located in Polson, MT, having a charter through the<br><br> Grand Lodge of MT, AF&AM, which is recognized by the United Grand Lodge of England.<br><br> Mission Valley Lodge (MVL) goes dark from the second week of June through August 31st</h2>
+</div>
+</div>
+<input type="button" id="Button2" onclick="ShowPanel('PanelLayer', event);HidePanel('PanelLayer', event);return false;" name="" value="" style="position:absolute;left:44px;top:19px;width:113px;height:34px;z-index:16;" disabled>
+<input type="button" id="Button1" onclick="ShowPanel('PanelLayer', event);HidePanel('PanelLayer', event);return false;" name="" value="" style="position:absolute;left:44px;top:19px;width:113px;height:34px;z-index:17;" disabled>
+<div id="PanelLayer" style="display:none;text-align:left;">
+<img src="images/img0002.jpg" id="Banner1" alt="WELCOME" style="border-width:0;position:absolute;left:44px;top:72px;width:137px;height:52px;z-index:8;">
+<div id="wb_Copyrights" style="position:absolute;left:18px;top:532px;width:189px;height:30px;text-align:center;z-index:9;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:12px;">Copyright 2018 - All Right Reserved</span></div>
+<div id="wb_CssMenu2" style="position:absolute;left:0px;top:143px;width:225px;height:320px;text-align:center;z-index:10;">
+<ul>
+<li class="firstmain"><a href="./index.html" target="_self">Home</a>
+</li>
+<li><a href="./History.php" target="_self">History</a>
+</li>
+<li><a class="withsubmenu" href="./Masonic_Family.html" target="_self">Masonic&nbsp;Family</a>
+
+<ul>
+<li class="firstitem"><a href="./Blue_Lodge.html" target="_self">Blue&nbsp;Lodge</a>
+</li>
+<li><a href="./Shriners.html" target="_self">Shriners</a>
+</li>
+<li class="lastitem"><a href="./OES.html" target="_self">OES</a>
+</li>
+</ul>
+</li>
+<li><a href="./FAQ.html" target="_self">FAQ</a>
+</li>
+<li><a href="./Calendar.html" target="_self">Calendar</a>
+</li>
+<li><a href="./Community.php" target="_self">Community</a>
+</li>
+<li><a href="./Links.php" target="_self">Links</a>
+</li>
+<li><a href="./Contact.php" target="_self">Contact</a>
+</li>
+</ul>
+</div>
+<div id="wb_Image3" style="position:absolute;left:52px;top:471px;width:120px;height:31px;z-index:11;">
+<a href="./Contact.php"><img src="images/2B1Ask1.png" id="Image3" alt=""></a></div>
+</div>
+</body>
+</html>
